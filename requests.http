@@ -1,0 +1,10 @@
+### Users Create Action
+POST http://localhost:3000/users.json
+Content-Type: application/json
+
+{
+  "name": "Willem",
+  "email": "will@test.com",
+  "password": "password",
+  "password_confirmation": "password"
+}
