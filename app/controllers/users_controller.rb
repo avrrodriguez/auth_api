@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
   def create
+    pp current_user
     user = User.new(
       name: params[:name],
       email: params[:email],

@@ -1,6 +1,7 @@
 ### Users Create Action
 POST http://localhost:3000/users.json
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2NjI3NjkzMzV9.L2JNHfJXoOsyXTrDEugui4R-uwii9TqEOZBHNq9QBCw
 
 {
   "name": "Willem",
