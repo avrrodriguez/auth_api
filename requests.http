@@ -8,3 +8,12 @@ Content-Type: application/json
   "password": "password",
   "password_confirmation": "password"
 }
+
+### Sessions Create Action
+POST http://localhost:3000/sessions.json
+Content-Type: application/json
+
+{
+  "email": "will@test.com",
+  "password": "password"
+}
